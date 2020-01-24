@@ -14,6 +14,7 @@
 		362F843423917CC8007B2E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362F843323917CC8007B2E90 /* Assets.xcassets */; };
 		362F843723917CC8007B2E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362F843523917CC8007B2E90 /* LaunchScreen.storyboard */; };
 		362F844223917CC8007B2E90 /* CoffeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F844123917CC8007B2E90 /* CoffeAppTests.swift */; };
+		362F844D23955F11007B2E90 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F844C23955F11007B2E90 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		362F843D23917CC8007B2E90 /* CoffeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		362F844123917CC8007B2E90 /* CoffeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeAppTests.swift; sourceTree = "<group>"; };
 		362F844323917CC8007B2E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362F844C23955F11007B2E90 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				362F843323917CC8007B2E90 /* Assets.xcassets */,
 				362F843523917CC8007B2E90 /* LaunchScreen.storyboard */,
 				362F843823917CC8007B2E90 /* Info.plist */,
+				362F844C23955F11007B2E90 /* HomeController.swift */,
 			);
 			path = CoffeApp;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362F844D23955F11007B2E90 /* HomeController.swift in Sources */,
 				362F842F23917CC7007B2E90 /* ViewController.swift in Sources */,
 				362F842B23917CC7007B2E90 /* AppDelegate.swift in Sources */,
 				362F842D23917CC7007B2E90 /* SceneDelegate.swift in Sources */,
